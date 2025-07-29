@@ -84,6 +84,12 @@ Breakdown of frontend components
 Made a basic layout structure for header and footer
 the created a folder named section for seperating out different sections
 
+also added router validation if the user is validated through oauth only then the user can route
+to /dashboard , else if the user tries to access dashboard he / she'll be redirected to homepage again
+
 for backend part
 created the folder within /api/auth for google oauth connection logic
 the frontend part for connecting TypeORM to DB is done at /lib/dataSource.ts
+
+for deployment part
+the important part to keep in mind was to actually add all env variables to project setting
