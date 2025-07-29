@@ -75,4 +75,15 @@ login/
 ├── entities/               # Database structure definitions
 └── public/                 # Images and static files
 ```
+
 # linkedinoauth
+
+Approach was such that I started by creating the frontend part of it
+Breakdown of frontend components
+
+Made a basic layout structure for header and footer
+the created a folder named section for seperating out different sections
+
+for backend part
+created the folder within /api/auth for google oauth connection logic
+the frontend part for connecting TypeORM to DB is done at /lib/dataSource.ts
